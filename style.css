@@ -1,0 +1,53 @@
+*{box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+
+
+}
+
+.semaforo-container{
+
+ display: flex;
+ justify-content: center;
+ 
+ align-items: center;
+ flex-direction: column;
+ gap: 1.6rem;
+ padding: 1rem;
+ margin-top: 2.7rem;
+
+}
+
+.botoes button{
+
+ width: 70px;
+ height: 25px;
+ border-radius: 4px;
+ margin: 0.6rem;
+ cursor: pointer;
+ border: none;
+ font-weight: bold;
+
+ 
+
+}
+
+#red{
+
+background-color: rgb(255, 63, 63);
+
+
+}
+
+#yellow{
+
+    background-color: rgb(255, 255, 113);
+ 
+
+}
+
+#green{
+ 
+    background-color: rgb(109, 215, 109);
+  
+}
